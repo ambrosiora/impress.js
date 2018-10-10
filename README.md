@@ -72,7 +72,7 @@ VERSION HISTORY
 
 ### 0.5.3 ([browse](http://github.com/bartaz/impress.js/tree/0.5.3), [zip](http://github.com/bartaz/impress.js/zipball/0.5.3), [tar](http://github.com/bartaz/impress.js/tarball/0.5.3))
 
-#### BUGFIX RELEASE
+#### BUGFIX RELEASES
 
 Version 0.5 introduced events including `impress:stepenter`, but this event was not triggered properly in some
 specific transition types (for example when only scale was changing between steps). It was caused by the fact that
@@ -84,14 +84,14 @@ transition has finished, but old school (and more reliable) `setTimeout` is used
 
 ### 0.5.2 ([browse](http://github.com/bartaz/impress.js/tree/0.5.2), [zip](http://github.com/bartaz/impress.js/zipball/0.5.2), [tar](http://github.com/bartaz/impress.js/tarball/0.5.2))
 
-#### DOCUMENTATION RELEASE
+#### DOCUMENTATION RELEASES
 
 More descriptive comments added to demo CSS and impress.js source file, so now not only `index.html` is worth reading ;)
 
 
 ### 0.5.1 ([browse](http://github.com/bartaz/impress.js/tree/0.5.1), [zip](http://github.com/bartaz/impress.js/zipball/0.5.1), [tar](http://github.com/bartaz/impress.js/tarball/0.5.1))
 
-#### BUGFIX RELEASE
+#### BUGFIX RELEASES
 
 Changes in version 0.5 introduced a bug (#126) that was preventing clicks on links (or any clickable elements) on
 currently active step. This release fixes this issue.
